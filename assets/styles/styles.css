@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+#contain-header, .container, .destaques, #destaque-vendas, #lancamento{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+#contact-top, .wrap-menu, #container-form, .contain-cta{
+    max-width: 975px;
+    margin: 0 auto;
+}
+.wrap-menu{
+    margin: 0.5rem auto;
+}
+#contact-top, #hr{
+    margin-top: 0.5rem;
+}
+#hr{
+    margin-bottom: 0.5rem;
+}
+#infos{
+    margin-bottom: 0;
+}
+#infos .icon-contact{
+    width: 15px;
+    margin: 0 5px;
+    padding-bottom: 1px;
+}
+#infos, #menu-itens{   
+    padding-left: 0;
+    margin: 0;
+}
+#contact #infos li, #menu-itens li,  #carecteristicas li{
+    display: inline;
+}
+#menu-itens{
+    color:#7C7E83;
+    font-weight: 600;
+}
+#contact #infos li, #menu-itens li,  #carecteristicas li, .contato-footer ul li, .link-footer ul li{
+    margin: auto 10px;
+    text-transform: capitalize;
+}
+.link{
+    text-decoration: none;
+    color: #7C7E83;
+}
+#infos li{
+    color: #7C7E83;
+}
+#social .social-icons{
+    margin-right: 10px;
+}
+#social img{
+    width: 20px;
+}
+#logo img, .logobranca img{
+    height: 70px;
+    object-fit: contain;
+}
+#main{
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: black;
+    width: 100%;
+    height: 85vh;
+}
+.filtro, #container-form{
+    height: 100%;
+    width: 100%;
+}
+.filtro{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.title{
+    font-weight: 400;
+    color: white;
+}
+.form{
+    height: 230px;
+    width: 90%;
+    background-color: #e6e6e6;
+}
+.row{
+    justify-content: center;
+}
+#form-1, #contain-btn-codigo{
+    margin-top: 0;
+}
+#pesquisar{
+    width: 100%;
+}
+#btn-codigo {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+#container{
+    background-color: #fafafa;
+}
+#carrossel-2{
+    overflow-x: hidden;
+}
+.carrossel{
+    display:flex;
+    flex-wrap: nowrap;
+    max-width: 1400px;
+}
+.destaques #carrossel-2 #card-imovel:first-child{
+    margin-left: 50px;
+} 
+.destaques{
+    margin-top: 5%;
+}
+.destaques h2{
+    padding-bottom: 5%;
+}
+.title-carrossel{
+    width: 100%;
+    text-align: center;
+}
+#card-imovel {
+    border: none;
+    margin-right: 50px;
+}
+.titulo-card{
+color:#2596be;
+text-align: center;
+margin-top:.5rem;
+margin-bottom:0;
+}
+.icons-desc{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.tipo{
+    background-color: #2596be;
+    width: 30%;
+    text-align: center;
+    border-radius: 3px;
+}
+.contain-preco{
+    text-align: right;
+}
+.tipo-imovel, .preco{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.tipo-imovel{
+    width: 30%;
+}
+.preco{
+    width: 40%;
+    margin-top: 30%;
+}
+.tipo p,.tipo-imovel p, .preco p {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+}
+#contain-icone{
+    width: 100%;
+    padding: 0 15%;
+}
+.contain-icone {
+    padding: 0 10%;
+}
+.title-icons h2{
+    padding: 5% 0;
+}
+.icone h5{
+    color:#2596be ;
+    text-transform: uppercase;
+}
+.icone img{
+    width: 60px;
+}
+#call-to-action{
+    width: 100%;
+    background-color: #35363a;
+    height: 100px;
+    margin-top: 5%;
+}
+.contain-cta .chamada h4{
+    color: white;
+    font-weight: 400;
+    margin: 0 10px
+}
+footer{
+    width: 100%;
+    background-color: #111111;
+    padding: 5% 0;
+}
+.contato-footer ul, .link-footer ul {
+    list-style:none;
+    color : #7C7E83;
+    padding-left: 0px;
+}
+.contato-footer ul li, .link-footer ul li {
+    line-height: 35px;
+    margin: 0px;
+    font-size: 15px;
+}
+.contato-footer ul span img {
+    width: 15px;
+    margin-right: 10px;
+}
+#contain-footer h5, .rodape{
+    color : #7C7E83;
+}
+#linkedin-footer{
+    margin-bottom: 4px;
+}
+.footer-icons .social-icons img{
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.contain-form-footer{
+    background-color: #151515;
+    padding: 30px 30px;
+    color : #7C7E83;
+}
+.rodape{
+    border-top: solid 1px #151515;
+    background-color: #111111;
+    width: 100%;
+}
+.direitos #p{
+    margin:0;
+}
+.rodapeItem{
+    width: 100%;
+    max-width: 975px;
+}
+.contato-footer, .link-footer{
+    margin-right: 5%;
+}
+/* testes slider */
+.global{
+display: flex;
+flex-wrap: nowrap;
+overflow: hidden;
+width: 90%;
+margin-left: 30px;
+}
+.slide img{
+    width: 15vw;
+}
+#slide{
+    width: 25vw;
+}
+/* cartao */
+#card-imovel{
+    min-width: 255px;
+}
+.card .card-img-overlay .preco p{
+    font-size: 13px;
+}
+.button-car{
+    width: 50px;
+
+}
+.button-car p{
+    cursor: pointer;
+}
+.fas{
+    font-size: 30px;
+    color: #2596be;
+}
+.fa-arrow-circle-left{
+    padding-left: 20px;
+}
+.fa-arrow-circle-rigth{
+    padding-right: 20px;
+}
+.title-destaques{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+#menu-responsivo{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+#menu-mobile{
+    display: none;
+}
+#menu-mobile{
+    list-style:none;
+    color:#7C7E83;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+@media (min-width:600px) {
+    #menu-responsivo{
+        display: none;
+    }
+}
+@media (max-width: 600px)
+{
+  #infos
+   {
+    display: none;
+   }
+   #contain-icone{
+       padding: 0;
+   }
+   .contain-cta .chamada h4{
+       display: none;
+   }
+   .global{
+       margin-left: 0;
+   }
+   .card .card-img-overlay .preco p {
+    font-size: 10px;
+    padding-right: 10px;
+    }
+    .titulo-card{
+        text-align: left;
+    }
+    #carecteristicas {
+        padding-left: 0.5rem;
+    }
+    #menu-itens{
+        display: none;
+    }
+    footer{
+        padding: 5%;
+    }
+    .form{
+        height: 400px;
+    }
+    #lista-footer{
+        text-align: center;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="crm, imobiliária, software, vendas">
+    <meta name="format-detection" content="telephone=no">
+    <title>Universal software</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <script src="https://kit.fontawesome.com/685d8cc0ed.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div id="contain-header">
+        <header>
+            <div id="contact-top" class="d-flex flex-row justify-content-between align-items-center">
+                <div id="contact" >
+                    <ul id="infos" >
+                        <li>CRECI 0000</li>
+                        <li><span><img class="icon-contact" src="./assets/img/social/call.png" alt=""></span><a class="link" href="tel:+55-31-3064-6600">(31) 3064-6600</a></li>
+                        <li><span><img class="icon-contact" src="./assets/img/social/whatsapp.png" alt=""><a class="link" href="tel:+55-31-3064-6600">(31) 3064-6600</a></li>
+                        <li><span><img class="icon-contact" src="./assets/img/social/email.png" alt=""><a class="link" href="mailto:comercial@universalsoftware.com.br">comercial@universalsoftware.com.br</a></li>
+                    </ul>
+                </div>
+                <div id="social" class="d-flex align-items-center">
+                    <a class="social-icons" target="_blank" href="https://www.facebook.com/unsoft/"><img src="./assets/img/social/facebook.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://www.instagram.com/universalsoftware/"><img src="./assets/img/social/instagram.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://twitter.com/unsoftware"><img src="./assets/img/social/twitter.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://www.youtube.com/channel/UCMY07hxphUSuyjQgWdyImJw"><img src="./assets/img/social/youtube.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://www.linkedin.com/company/universal-software-brasil/?originalSubdomain=pt"><img id="linkedin-footer" src="./assets/img/social/linkedin.png" class=""></a>
+                </div>
+                
+            </div>
+            <hr id="hr">
+            <div class="wrap-menu d-flex flex-row justify-content-left">
+                    <div id="logo">
+                        <img src="./assets/img/logomarca.png" alt="">
+                    </div>
+                    <nav class="d-flex align-items-center">
+                        <ul id="menu-itens">
+                            <li>home</li>
+                            <li>buscar imóveis</li>
+                            <li>sobre</li>
+                            <li>anuncie seu imóveis</li>
+                            <li>fale conosco</li>
+                            <li>área do cliente</li>
+                        </ul>
+                    </nav>
+                    <div id="menu-responsivo">
+                        <i class="fas fa-bars"></i>
+                    </div>
+            </div>
+            <nav class="d-flex align-items-center">
+                <ul id="menu-mobile">
+                    <li>home</li>
+                    <li>buscar imóveis</li>
+                    <li>sobre</li>
+                    <li>anuncie seu imóveis</li>
+                    <li>fale conosco</li>
+                    <li>área do cliente</li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="container">
+        <div id="main">
+            <div class="filtro" >
+                <div id="container-form" class="d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="title">Encontre seu imóvel na <strong>universal software</strong></h1>
+                    <div class="form d-flex align-items-center">
+                           <form action="" class="row g-3 justify-content-center">
+                               <div id="form-1" class="row  g-3">
+                                    <div class="col-md-4">
+                                        <select class="form-select select-modalidade">
+                                            <option selected disabled>Qual seu desejo?</option>
+                                            <option value="comprar">Comprar</option>
+                                            <option value="alugar">Alugar</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-select select-cidades">
+                                            <option selected disabled>Selecione a cidade</option>
+                                            <option value="comprar">Comprar</option>
+                                            <option value="alugar">Alugar</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-select select-bairros">
+                                            <option selected disabled>Selecione o bairro</option>
+                                            <option value="comprar">Comprar</option>
+                                            <option value="alugar">Alugar</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div id="form-2" class="row g-3">
+                                    <div class="col-md-4">
+                                        <select class="form-select select-tipo">
+                                            <option selected disabled>Selecione o tipo</option>
+                                            <option value="comprar">Comprar</option>
+                                            <option value="alugar">Alugar</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-select select-quartos">
+                                            <option selected disabled>Quartos</option>
+                                            <option value="comprar">Comprar</option>
+                                            <option value="alugar">Alugar</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button id="pesquisar" class="btn btn-primary mb-4" type="submit">Pesquisar</button>
+                                    </div>
+                                </div>
+                                <div id="contain-btn-codigo" class="d-flex justify-content-center align-items-center">
+                                    <button id="btn-codigo" class="btn btn-outline-primary">Pesquisar Pelo código</button>
+                                </div>
+                           </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="title-destaques">Destaque de vendas</h2>
+        <div id="teste-carrossel" class="destaques d-flex justify-content-center align-items-center flex-row ">
+            <div class="button-car">
+                <p onclick="volta('wrap1')"><i class="fas fa-arrow-circle-left"></i></p>
+            </div>
+           
+                <div id="wrap1" class="global">
+                  <!-- card na mao-->
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt2.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belo izonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Beizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belrrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Befdrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - BfddfHorizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belfrizontedf</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Befsfdrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - sdsd Horizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belo rds</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - teste Horizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro </h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-car"><p onclick="frente('wrap1')"><i class="fas fa-arrow-circle-right"></i></p></div>
+        </div>
+        <h2 class="title-destaques">Destaques de aluguel</h2>
+        <!-- ESTAMOS TRABALHANDO AQUI-->
+        <div id="teste-carrossel" class="destaques d-flex justify-content-center align-items-center flex-row ">
+            <div class="button-car">
+                <p onclick="volta('wrap2')"><i class="fas fa-arrow-circle-left"></i></p>
+            </div>
+                <div id="wrap2" class="global">
+                  <!-- card na mao-->
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belo izonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Beizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belrrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Befdrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - BfddfHorizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belfrizontedf</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Befsfdrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - sdsd Horizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belo rds</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - teste Horizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro </h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-car"><p onclick="frente('wrap2')"><i class="fas fa-arrow-circle-right"></i></p></div>
+        </div>
+        <!-- ATE AQUI-->
+        <h2 class="title-destaques">Lançamentos</h2>
+        <div id="teste-carrossel" class="destaques d-flex justify-content-center align-items-center flex-row ">
+            <div class="button-car">
+                <p onclick="volta('wrap3')"><i class="fas fa-arrow-circle-left"></i></p>
+            </div>
+                <div id="wrap3" class="global">
+                  <!-- card na mao-->
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belo izonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Beizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belrrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Befdrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - BfddfHorizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belfrizontedf</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Befsfdrizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - sdsd Horizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - Belo rds</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro - teste Horizonte</h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+                <div id="card-imovel" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/api/img/apt1.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <div class="tipo"><p class="card-text">Venda</p></div>
+                        <div class="tipo-imovel"><p class="card-text">Casa</p></div>
+                        <div class="d-flex justify-content-end">
+                        <div class="preco"><p class="card-text">R$ 200.000,00</p></div>
+                        </div>
+                    </div>
+                    <h5 class="card-title titulo-card">Centro </h5>
+                    <hr>
+                    <ul id="carecteristicas">
+                        <li id="metragem" > <span ><img class="icons-desc" src="./assets/img/card/apartamento.png" alt=""></span> 5</li>
+                        <li id="quartos"> <span ><img class="icons-desc" src="./assets/img/card/bed.png" alt=""></span>5</li>
+                        <li id="banheiros"> <span"><img class="icons-desc" src="./assets/img/card/toaletes.png" alt=""></span>8</li>
+                        <li id="vagas"><span><img class="icons-desc" src="./assets/img/card/carro.png" alt=""></span>7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-car"><p onclick="frente('wrap3')"><i class="fas fa-arrow-circle-right"></i></p></div>
+        </div>
+        <!--testes-->
+        <div class="icons d-flex flex-column justify-content-center align-items-center">
+           <div class="title-icons d-flex justify-content-center align-items-center">
+               <h2 >O que você está procurando?</h2>
+            </div>
+               <div id="contain-icone" class="contain-icone d-flex flex-row justify-content-between">
+                   <div class="icone house d-flex flex-column justify-content-center align-items-center">
+                       <img src="./assets/img/house.png" alt="">
+                       <h5>Casas</h5>
+                    </div>
+                    <div class=" icone predio d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/img/predio.png" alt="">
+                        <h5>Apartamentos</h5>
+                     </div>
+                     <div class="icone loja d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/img/store.png" alt="">
+                        <h5>Comprar</h5>
+                     </div>
+                     <div class="icone rent d-flex flex-column justify-content-center align-items-center">
+                        <img src="./assets/img/rent.png" alt="">
+                        <h5>Alugar</h5>
+                     </div>
+               </div>
+        </div>
+        <div id="call-to-action" class="d-flex flex-row">
+            <div class="contain-cta  d-flex flex-row justify-content-between align-items-center">
+                <div class="logobranca"> <img src="./assets/img/logo_branca.png" alt=""></div>
+                <div class="chamada"><h4>O MELHOR INVESTIMENTO PARA SUA VIDA ESTÁ AQUI</h4></div>
+                <div><button class="btn btn-outline-light">ENTRE EM CONTATO</button></div>
+            </div>
+        </div>
+    </div>
+    <div id="contain-footer">
+        <footer id="footer" class="footer d-flex flex-row justify-content-center align-items-start">
+            <div class="contato-footer">
+                <h5>Contato</h4>
+                <ul>
+                    <li> <span><img src="./assets/img/social/location.png" alt=""></span>Av. Barão Homem de Melo, 4500 - Estoril, Belo <br> Horizonte - MG</li>
+                    <li> <span><img src="./assets/img/social/email-branco.png" alt=""></span>comercial@universalsoftware.com.br </li>
+                    <li> <span><img src="./assets/img/social/call-BRANCO.png" alt=""></span>(31) 3064-6600</li>
+                    <li> <span><img src="./assets/img/social/whatsapp-branco.png" alt=""></span>(31) 3064-6600</li>
+                    <li> <span><img src="./assets/img/social/clock.png" alt=""></span>08hs às 18hs de segunda a sexta-feira</li>
+                </ul>
+            </div>
+            <div class="link-footer">
+                <h5>LINKS</h4>
+                <ul>
+                    <li>home</li>
+                    <li>sobre</li>
+                    <li>anuncie seu imóvel</li>
+                    <li>documentos</li>
+                    <li>fale conosco</li>
+                    <li>politicas de privicidades</li>
+                    <li>área do cliente</li>
+                </ul>
+            </div>
+            <div class="form-footer">
+                <h5>Entramos em contato</h4>
+                    <div class="contain-form-footer">
+                    <p>Ficou com dúvida de como alugar ou comprar o seu<br> imóvel? Entraremos em contato, digite seu email.</p>
+                        <form action="">
+                            <div class="mb">
+                            <input class="form-control" type="email" placeholder="Email..." name="" id="">
+                            </div>
+                            <button class="btn btn-primary" style="width: 100%; margin-top: 20px;" type="submit">Enviar</button>
+                        </form>
+                    </div>
+            </div>
+        </footer>
+        <div  class="rodape d-flex flex-row justify-content-center align-items-center" >
+            <div id="rodape" class="rodapeItem d-flex justify-content-between">
+            <div class="direitos d-flex justify-content-center align-items-center">
+                <p id="p">2021 Desenvolvido por Universal SoftWare.</p>
+            </div>
+            <div id="footer-icons" class="footer-icons">
+                <ul id="lista-footer">
+                    <a class="social-icons" target="_blank" href="https://www.facebook.com/unsoft/"><img src="./assets/img/social/facebook-branco.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://www.instagram.com/universalsoftware/"><img src="./assets/img/social/instagram-branco.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://twitter.com/unsoftware"><img src="./assets/img/social/twitter-branco.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://www.youtube.com/channel/UCMY07hxphUSuyjQgWdyImJw"><img src="./assets/img/social/youtube-branco.png" class=""></a>
+                    <a class="social-icons" target="_blank" href="https://www.linkedin.com/company/universal-software-brasil/?originalSubdomain=pt"><img id="linkedin-footer" src="./assets/img/social/linkedin-branco.png" class=""></a>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/scripts/script.js"></script>
+</body>
+</html>

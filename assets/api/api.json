@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "img": "./assets/api/img/apt1.jpg",
+      "tipo": "Venda",
+      "modelo":"Casa",
+      "valor": "R$ 200.000,00",
+      "local": "Centro - Belo Horizonte",
+      "metragem": "70m²",
+      "quartos": "2",
+      "banheiros" : "2",
+      "vagas": "2"
+    },
+    {
+        "id": 2,
+        "img": "./assets/api/img/apt2.jpg",
+        "tipo": "Venda",
+        "modelo":"Casa",
+        "valor": "R$ 200.000,00",
+        "local": "Centro - Salvador",
+        "metragem": "70m²",
+        "quartos": "2",
+        "banheiros" : "2",
+        "vagas": "2"
+      },
+      {
+          "id": 3,
+          "img": "./assets/api/img/apt1.jpg",
+          "tipo": "Venda",
+          "modelo":"Apartamento",
+          "valor": "R$ 150.000,00",
+          "local": "Centro - Curitiba",
+          "metragem": "70m²",
+          "quartos": "2",
+          "banheiros" : "2",
+          "vagas": "2"
+        },
+        {
+            "id": 4,
+            "img": "./assets/api/img/apt2.jpg",
+            "tipo": "Venda",
+            "modelo":"Apartamento",
+            "valor": "R$ 200.000,00",
+            "local": "Centro - Curitiba",
+            "metragem": "70m²",
+            "quartos": "2",
+            "banheiros" : "1",
+            "vagas": "1"
+          },
+          {
+              "id": 5,
+              "img": "./assets/api/img/apt1.jpg",
+              "tipo": "Venda",
+              "modelo":"Apartamento",
+              "valor": "R$ 150.000,00",
+              "local": "Centro - Salvador",
+              "metragem": "70m²",
+              "quartos": "2",
+              "banheiros" : "2",
+              "vagas": "2"
+            }
+]
